@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body >
+
+<h3>Redirecting...</h3>
+<h3 onload="redirect()">Please wait...</h3>
+
+
+<script>
+
+window.onload = async function redirect(){
+	await new Promise(resolve => setTimeout(resolve, 2000)); // 2 sec
+  	location.replace("https://care-x.github.io/CareX-Privacy-Policy/")
+}
+</script>
+</body>
+</html> 
